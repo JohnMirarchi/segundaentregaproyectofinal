@@ -1,0 +1,907 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media only screen and (min-width:140px){
+
+/* Propiedades del padre */
+
+
+body{
+    background-image: url("../img/fondo.jpg");
+}
+
+div nav ul{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #0BB3D9;
+    text-decoration: none;
+}
+
+div nav ul li{
+    list-style:none;
+    color: white;
+    background-color: #0BB3D9;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+
+div nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 0.68rem;
+    font-weight:bold;
+    margin: 6px;
+}
+
+div nav ul li:hover{
+    background-color: #5fd8f3;
+}
+
+.containerB{
+    
+    display: grid;
+    grid-template-areas: "header header"
+                         "main main"
+                         "footer footer";
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header{
+    grid-area: header;
+}
+
+main{
+    grid-area: main;
+}
+
+.sacarSub{
+    text-decoration: none;
+}
+
+.nombreDire{
+    background-color: #0BB3D9;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 0.2rem;
+}
+
+.padreMain{
+    color: white;
+    text-decoration: none;
+}
+
+.jpg{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+.bioDir{
+    text-align: justify;
+    padding: 0.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nameDirector{
+    margin-top: 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+footer{
+    padding-top: 6.9rem;
+    grid-area: footer;
+}
+
+footer p{
+    padding-top: 1rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #0BB3D9;
+}
+
+footer div nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif, Impact, Haettenschweiler,'Arial Narrow Bold', sans-serif;
+}
+
+footer div nav ul li:hover{
+    background-color: #a8efffcc;
+}
+
+/* Css Largometrajes/películas */
+
+div nav ul li{
+    list-style:none;
+    color: white;
+}    
+    
+.nombreDire{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.ordenCajas{
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.seccionP{
+    font-size: 20px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+
+.tituloPeliculas{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    text-transform: uppercase;
+}
+
+.sinopsisImg{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.posterM{
+    align-items: center;
+}
+
+.videoT{
+    width: auto;
+    height: auto;
+    padding-top: 10px;
+}
+
+.volverA{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    margin-left: 48px;
+    margin-top: 10px;
+}
+
+/* estilos generales cortometraje */
+
+.cortometrajes{
+    color: #fcfcfc;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.tituloCortos{
+    color: #fcfcfc;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.loopP{
+    width: 300px;
+    height: 180px;
+}
+
+.sinopsis{
+    padding-top: 10px;
+}
+
+/* estilos generales contacto */
+
+.contacto{
+    color: #fcfcfc;
+    align-items: center;
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.sobreVos{
+    color: #fcfcfc;
+    margin-top: 20px;
+    margin-block-end: 20px;
+    text-align: justify;
+    font-size: 10px;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.colorFormulario{
+    color: #fcfcfc;
+    padding: 15px;
+    font-size: 10px;
+    align-items:center;
+}
+
+.formTamaño{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.formularioC{
+    margin-bottom: 170px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* estilos generales videoclip */
+
+.videoClip{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.videosC{
+    margin-left: 0px;
+}
+
+.videoClip1{
+    align-items: center;
+}
+
+/* contacto */
+
+.formularioC{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 250px;
+    height: 100vh;
+}
+
+}
+
+/* Media queries*/
+
+@media only screen and (min-width:600px){
+
+div nav ul li{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.containerB{
+    display: grid;
+    grid-template-areas: "header header header header"
+                         "main main main main"
+                         "footer footer footer footer";
+    justify-content:center;
+    color: white;
+    text-align: justify;
+    text-decoration: none;
+}
+
+header{
+    grid-area: header;
+}
+    
+main{
+    grid-area: main;
+}
+
+.padreMain{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+header{
+    background-color: #0BB3D9;
+    display: flex;
+    margin-block-end: 10px;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+header nav ul li{
+    color: #fcfcfc;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: small;
+    display: inline-block; 
+    margin: 3px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+div nav ul li a{
+    height: 80vh;
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-flow: row wrap;    
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    }   
+
+.nombreDire{
+    text-decoration: none;
+    font-size: 22px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    padding-left: 62px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.bioDir{
+    text-align: justify;
+    padding-top: 10px;
+    padding: 0.5rem;
+    padding-right: 65px;
+    font-size: 1.2rem;
+}
+    
+.nameDirector{
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+    padding-left: 8px;  
+    padding-right: 90px; 
+    text-decoration: none;
+}
+
+.jpg{
+    padding-right: 80px;    
+}   
+
+ 
+footer{
+    grid-area: footer;
+    height: 900px;
+    display: flex;
+    align-items: baseline;
+    margin-top:auto;
+    background-color: #0BB3D9;
+    padding-left: 60px;
+    padding-top: 30px;
+    justify-content:space-around;
+    color: #fcfcfc;
+}
+
+/* estilos generales largometraje */
+
+.ordenCajas{
+    display: flex;
+    flex-direction:column;
+    flex-flow:column;
+    align-items: center;
+    margin-bottom: 30px;    
+}
+
+.seccionP{
+    font-size: 30px;
+}
+
+.sinopsisImg{
+    margin-top: 40px;
+    display: flex;
+    flex-direction:column;
+    flex-flow: row wrap;
+}
+
+.videoT{
+    margin-top: 40px;
+}
+
+
+.largometrajes{
+    color: #fcfcfc;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+
+.sinopsis{
+    color: #fcfcfc;
+    margin-block-end: 50px;
+    text-align: justify;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.videoT{
+    width: 640px;
+    height: 360px;
+    margin-left: 15px;
+}
+
+main{
+    background-image: url('../img/fondo.jpg')
+}
+
+main a{
+    color: #fcfcfc;
+    text-decoration: none;
+}
+
+.volverA{
+    align-content: center;
+    margin-left: 430px;
+}
+
+.posterM{
+    width: 630px;
+    height: 840px;
+}
+
+/* estilos generales cortometrajes */
+
+.cortometrajes{
+    color: #fcfcfc;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.tituloCortos{
+    color: #fcfcfc;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.loopP{
+    width: 840px;
+    height: 530px;
+}
+
+/*Contacto*/
+
+.sobreVos{
+    color: #fcfcfc;
+    margin-top: 20px;
+    margin-block-end: 20px;
+    text-align: justify;
+    font-size: 20px;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.formularioC{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 250px;
+    height: 100vh;
+}
+
+}
+
+/* Media queries*/
+
+
+@media only screen and (min-width:800px){
+
+div nav ul li{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+div nav ul li a{
+    font-size: 15px;
+}
+
+.containerB{
+    display: grid;
+    grid-template-areas: "header header header header"
+                         "main   main   main   main"
+                         "main   main   main   main"
+                         "footer footer footer footer";
+    justify-content:center;
+    color: white;
+    text-align: justify;
+    height: 100vh;
+}
+
+header{
+    grid-area: header;
+}
+
+main{
+    grid-area: main;
+}
+
+.padreMain{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+
+.bioDir{
+    text-align: justify;
+    padding-top: 10px;
+    padding: 0.5rem;
+    padding-right: 210px;
+    padding-left: 130px;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nombreDire{
+    text-decoration: none;
+}
+
+.nameDirector{
+    margin-top: 1rem;
+    text-transform: uppercase;
+    padding-left: 8px;  
+    padding-right: 90px; 
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.jpg{
+    margin-top: 2px;
+    margin-left: 10px;
+    width:auto;
+    height:auto;
+}  
+    
+div nav ul li a{
+    height: 100vh;
+}
+
+footer{
+    grid-area: footer;
+    height: 100px;
+    display: flex;
+    align-items: baseline;
+    margin-top:auto;
+    background-color: #0BB3D9;
+    padding-left: 60px;
+    padding-top: 30px;
+    justify-content:space-around;
+    color: #fcfcfc;
+}
+
+
+/* estilos generales largometraje */
+
+.ordenCajas{
+    display: flex;
+    flex-direction:column;
+    flex-flow:column;
+    align-items: center;
+    margin-bottom: 30px; 
+    margin-left: 0px;   
+}
+
+
+.videoT{
+    margin-top: 40px;
+}
+
+
+.largometrajes{
+    color: #fcfcfc;
+    margin-top: 25px;
+    font-size: 35px;
+}
+
+.tituloPeliculas{
+    color: #fcfcfc;
+    margin-top: 25px;
+}
+
+.sinopsis{
+    color: #fcfcfc;
+    margin-top: 0px;
+    margin-left: 275px;
+    margin-right: 275px;
+    margin-block-end: 50px;
+    text-align: justify;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.videoT{
+    width: 730px;
+    height: 440px;
+}
+
+main{
+    background-image: url('../img/fondo.jpg')
+}
+
+main a{
+    color: #fcfcfc;
+    text-decoration: none;
+}
+
+.volverA{
+    align-content: center;
+}
+
+
+/* estilos generales cortometraje */
+
+.cortometrajes{
+    color: #fcfcfc;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.tituloCortos{
+    color: #fcfcfc;
+    margin-top: 25px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.videoT{
+    margin-top: 1px;
+}
+
+
+/* estilos generales contacto */
+
+.contacto{
+    color: #fcfcfc;
+    align-items: center;
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.sobreVos{
+    color: #fcfcfc;
+    margin-top: 20px;
+    margin-block-end: 20px;
+    text-align: justify;
+    font-size: 20px;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.colorFormulario{
+    color: #fcfcfc;
+    padding: 15px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.formularioC{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 250px;
+    height: 100vh;
+}
+
+}
+
+@media only screen and (min-width:1920px){
+
+div nav ul li{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+div nav ul li a{
+    font-size: 15px;
+}
+
+.containerB{
+    display: grid;
+    grid-template-areas: "header header header header"
+                         "main main main main"
+                         "main main main"
+                         "footer footer footer footer";
+    justify-content:center;
+    color: white;
+    text-align: justify;
+    height: 100vh;
+}
+
+.padreMain{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+
+.bioDir{
+    text-align: justify;
+    padding-top: 10px;
+    padding: 0.5rem;
+    padding-right: 530px;
+    padding-left: 390px;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nombreDire{
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.nameDirector{
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+    padding-left: 8px;  
+    padding-right: 90px; 
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.jpg{
+    margin-top: 2px;
+    margin-left: 10px;
+    width:auto;
+    height:auto;
+}  
+    
+div nav ul li a{
+    height: 100vh;
+}
+
+footer{
+    height: 100px;
+    display: flex;
+    align-items: baseline;
+    margin-top:auto;
+    background-color: #0BB3D9;
+    padding-left: 60px;
+    padding-top: 30px;
+    justify-content:space-around;
+    color: #fcfcfc;
+}
+
+
+/* estilos generales largometraje */
+
+.ordenCajas{
+    display: flex;
+    flex-direction:column;
+    flex-flow:column;
+    align-items: center;
+    margin-bottom: 30px; 
+    margin-left: 0px;   
+}
+
+
+.videoT{
+    margin-top: 40px;
+}
+
+
+.largometrajes{
+    color: #fcfcfc;
+    margin-top: 25px;
+    font-size: 35px;
+}
+
+.tituloPeliculas{
+    color: #fcfcfc;
+    margin-top: 25px;
+}
+
+.sinopsis{
+    color: #fcfcfc;
+    margin-top: 0px;
+    margin-left: 275px;
+    margin-right: 275px;
+    margin-block-end: 50px;
+    text-align: justify;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.videoT{
+    width: 730px;
+    height: 440px;
+}
+
+main{
+    background-image: url('../img/fondo.jpg')
+}
+
+main a{
+    color: #fcfcfc;
+    text-decoration: none;
+}
+
+.volverA{
+    align-content: center;
+}
+
+
+/* estilos generales cortometraje */
+
+.cortometrajes{
+    color: #fcfcfc;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.tituloCortos{
+    color: #fcfcfc;
+    margin-top: 25px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.videoT{
+    margin-top: 1px;
+}
+
+/* estilos generales contacto */
+
+.contacto{
+    color: #fcfcfc;
+    align-items: center;
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.sobreVos{
+    color: #fcfcfc;
+    margin-top: 20px;
+    margin-block-end: 20px;
+    text-align: justify;
+    font-size: 20px;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 700px;
+    margin-left: 700px;
+}
+
+.colorFormulario{
+    color: #fcfcfc;
+    padding: 15px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.formularioC{
+    font-family: 'Montserrat', sans-serif;
+}
+
+}
+
